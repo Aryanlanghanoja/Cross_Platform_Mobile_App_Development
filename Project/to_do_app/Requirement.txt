@@ -1,0 +1,5 @@
+Add Task
+Edit / Update
+Toggle Complete
+Delete
+Display List

@@ -1,0 +1,31 @@
+import 'dart:convert';
+
+List<Todo> todoFromJson(String str) =>
+    List<Todo>.from(json.decode(str).map((x) => Todo.fromJson(x)));
+
+String todoToJson(List<Todo> data) =>
+    json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+
+class Todo {
+  bool? completed;
+  int? id;
+  String? task; // ? NULL is allowed
+
+  Todo({
+    this.completed,
+    this.id,
+    this.task,
+  });
+
+  factory Todo.fromJson(Map<String, dynamic> json) => Todo(
+        completed: json["completed"],
+        id: json["id"],
+        task: json["task"],
+      );
+
+  Map<String, dynamic> toJson() => {
+        "completed": completed,
+        "id": id,
+        "task": task,
+      };
+}

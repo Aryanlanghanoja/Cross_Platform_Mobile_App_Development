@@ -1,0 +1,56 @@
+widget:- in flutter, on UI everything is a widget
+hot reload - if you want to display the changes on the current page
+hot restart - it will run the whole app from the beginning but it will not generate a new app
+start - it will generate new APK
+
+on the web - it will always start 
+
+positional argument
+keyword parameter
+task-1:- red, yellow, orange, blue, green
+
+if we want to refresh the widget then it will be stateful
+if we don't want to 
+
+flutter is adaptive. adaptive means any platform can adapt and run the app based on its GUI Scheme.
+new keyword is optional.
+floating action button
+string interpolation vs string concatenation
+
+2.3.1
+2 is version 
+3 feature
+1 debug
+
+null safety:- it is the safety given if the developer wants then it will allow null otherwise not
+persistence :- perment
+session:-data stored on the server
+cookie:- data stored on the client side
+
+local - mobile or your pc storage
+remote
+
+GET:-to fetch the data
+POST:- add something in the server
+PUT:- update the data
+DELETE:- to delete the data
+PATCH:- to update specific things in a given record
+
+HEAD = option in the header
+TRACK: to track the route
+to use API in Flutter HTTP and Dio
+
+async = no need to wait for the complete the execution of function.to implement parallel processing
+
+URL = Universal Resource Locator
+URI = Universal Resource Identifier
+
+RESTAPI
+
+state management
+stateful
+inherited
+provider
+getx
+bloc
+riverpod
