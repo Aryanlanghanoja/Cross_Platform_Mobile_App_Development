@@ -6,41 +6,46 @@ import 'booking_page.dart';
 
 class SettingsPage extends StatelessWidget {
   SettingsPage({super.key});
+  BookingController controller = Get.put(BookingController());
 
-  BokkingController controller = Get.put(BokkingController());
-
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-          "Settings",
-          style: TextStyle(color: Colors.white),
+        appBar: AppBar(
+          title: Text(
+            'Settings ',
+            style: TextStyle(color: Colors.white),
+          ),
+          backgroundColor: Colors.deepPurple,
         ),
-        backgroundColor: Colors.deepPurple,
-      ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            TextField(
-              controller: controller.txtlimit,
-              decoration: InputDecoration(labelText: "Limit"),
-              keyboardType: TextInputType.number,
-            ),
-            TextField(
-              controller: controller.txtPrice,
-              decoration: InputDecoration(labelText: "Price"),
-              keyboardType: TextInputType.number,
-            ),
-            ElevatedButton(
+        body: SafeArea(
+          child: Column(
+            children: [
+              TextField(
+                controller: controller.txtLimit,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(
+                  labelText: 'Limit',
+                ),
+              ),
+              TextField(
+                controller: controller.txtPrice,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(
+                  labelText: 'Price',
+                ),
+              ),
+              ElevatedButton(
                 onPressed: () {
                   controller.saveSettings();
+                  controller.bookTicket();
                   Get.to(() => BookingPage());
                 },
-                child: Text("Save"))
-          ],
-        ),
-      ),
-    );
+                child: Text('Save'),
+              ),
+            ],
+          ),
+        ));
   }
 }

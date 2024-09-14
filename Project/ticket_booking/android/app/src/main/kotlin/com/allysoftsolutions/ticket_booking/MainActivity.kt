@@ -1,4 +1,4 @@
-package com.example.ticket_booking
+package com.allysoftsolutions.ticket_booking
 
 import io.flutter.embedding.android.FlutterActivity
 

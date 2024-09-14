@@ -5,3 +5,4 @@ create screens to book ticket where setting screen allows user to provide input 
 seting no of seats and price
 2 book a seat name and no.of.seat and total
 booking history where booking history as alist total revenue generated total available seats
+on 
