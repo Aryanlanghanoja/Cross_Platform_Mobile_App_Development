@@ -1,8 +1,17 @@
-connect todo app with api
-create quote app which will display quote with one button. click of button fetch new quote
+connect the todo app with the API
+create quote app which will display quotes with one button. click the button to fetch a new quote
 
-create screens to book ticket where setting screen allows user to provide input for seat limits
-seting no of seats and price
+create screens to book tickets where the setting screen allows the user to provide input for seat limits
+setting no of seats and price
 2 book a seat name and no.of.seat and total
-booking history where booking history as alist total revenue generated total available seats
+booking history where booking history is a list of total revenue generated total available seats
 on 
+
+create note app that will store data on Firebase
+
+
+create a noticeboard app Initially it will  ask for your name
+on another screen, it will give a notice view
+on another screen add/delete the notice
+
+create the replica of online clipboard it will generate 6 digit code

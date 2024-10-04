@@ -54,3 +54,12 @@ provider
 getx
 bloc
 riverpod
+
+loosely coupled
+tightly coupled
+
+CICD Continuous Integration Continuous Deployment - DevOps
+
+
+
+
