@@ -60,6 +60,21 @@ tightly coupled
 
 CICD Continuous Integration Continuous Deployment - DevOps
 
+Dart is the Client Side Optimized Language
+
+SDLC Software Development Lifecycle:-
+
+Requirement Gathering
+Analysis
+Design
+Coding and Implementation
+Testing
+Deployment
+ 
+
+
+
+
 
 
 
