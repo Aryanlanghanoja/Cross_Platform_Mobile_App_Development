@@ -5,7 +5,7 @@ import '../services/firebase_services.dart';
 
 class NotesDetailScreen extends StatefulWidget {
   final Note? note;
-  NotesDetailScreen({this.note});
+  const NotesDetailScreen({this.note});
   @override
   State<NotesDetailScreen> createState() => _NotesDetailScreenState();
 }

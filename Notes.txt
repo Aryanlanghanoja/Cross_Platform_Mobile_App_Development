@@ -1,3 +1,4 @@
+
 widget:- in flutter, on UI everything is a widget
 hot reload - if you want to display the changes on the current page
 hot restart - it will run the whole app from the beginning but it will not generate a new app
