@@ -131,7 +131,7 @@ class _EMICalculatorState extends State<EMICalculator> {
               const SizedBox(height: 20.0),
               const Text(
                 "Annual Interest Rate (%) :- ",
-                style: TextStyle(fontSize: 18.0),
+                style: TextStyle(fontSize: 18.0), 
               ),
               const SizedBox(height: 8.0),
               // TextField for entering interest rate
